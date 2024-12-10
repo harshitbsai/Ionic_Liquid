@@ -1,0 +1,21 @@
+tolerance 2.0
+
+
+output IL_P66614_TPB_LA.pdb
+
+structure cation_P66614.pdb
+  number 400
+  inside box 0. 0. 0. 150. 150. 150.
+end structure
+
+
+structure anion.pdb
+  number 400
+  inside box 0. 0. 0. 150. 150. 150.
+end structure
+
+structure la.pdb
+  number 1
+  fixed 75. 75. 75. 0. 0. 0.
+end structure
+
