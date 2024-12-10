@@ -1,0 +1,15 @@
+tolerance 2.0
+filetype pdb
+
+output system.pdb
+
+structure output.pdb
+  number 1
+  fixed 25. 25. 25. 0. 0. 0.  # Fixing the lanthanide at the center of the box
+end structure
+
+structure water_updated.pdb
+  number 600
+  inside box 0. 0. 0. 50. 50. 50.
+end structure
+         
